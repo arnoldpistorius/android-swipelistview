@@ -497,7 +497,7 @@ public class SwipeListViewTouchListener implements View.OnTouchListener {
      */
     private void openAnimate(View view, int position) {
         if (!opened.get(position)) {
-            generateRevealAnimate(view, true, false, position);
+            generateRevealAnimate(view, true, true, position);
         }
     }
 
